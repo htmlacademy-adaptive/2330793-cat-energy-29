@@ -5,15 +5,29 @@
     <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p> -->
     <div class="container-index">
         <header class="page-header">
             <h2 class="visually-hidden">Menu navigation</h2>
                 <nav class="page-header__navigation">
                     <a class="page-header__navigation--link"><img src="#" alt="Логотип кота"></a>
                         <p>CAT ENERGY</p>
-                            <button class=" button button__header--primary" type="button"><img src="#" alt=""></button>
+                            <button class=" button button__header--toogle" type="button"><img src="#" alt="Открыть меню"></button>
+                            <div class="popup-menu">
+                                <ul class="popup-menu__list">
+                                    <li class="popup-menu__item">
+                                        <a href="#index" class="">Главная</a>
+                                    </li>
+                                    <li class="popup-menu__item"></li>
+                                        <a href="#catalog" class="">Каталог продукции</a>
+                                    </li>
+                                    <li class="popup-menu__item"></li>
+                                        <a href="#programs" class="">Подбор программы</a>
+                                    </li>
+                                </ul>    
+                            </div>
                 </nav>
+                
         </header>
         <main class="main-index">
             <section class="main-section">
@@ -116,23 +130,6 @@
                 <p class="index-footer__subtitle">HTML Academy  <a class="index-footer__logo"><img src="#" alt=""></a></p>
             </footer>
         </main>
-        <section class="popup-menu">
-            <header class="popup-menu__header">
-                <h2 class="visually-hidden">Menu navigation</h2>
-                    <nav class="popup-menu__navigation">
-                        <a class="popup-menu__logo"><img src="#" alt=""></a>
-                            <p class="popup-menu__title">CAT ENERGY</p>
-                            <button class="popup-menu__button--primary" type="button"><img src="#" alt=""></button>
-                    </nav>
-                    <ul class="popup-menu__list">
-                        <li class="popup-menu__item">
-                            <a href="#index" class="">Главная</a>
-                            <a href="#catalog" class="">Каталог продукции</a>
-                            <a href="#programs" class="">Подбор программы</a>
-                        </li>
-                    </ul>    
-            </header>
-        </section>
     </div>
   </body>
 </html>
