@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи!»
 
-* Студент: [Иван Сорогин](https://up.htmlacademy.ru/adaptive/29/user/2330793).
-* Наставник: [Максим Миронов](https://up.htmlacademy.ru/adaptive/29/user/1336881).
+* Студент:: [Иван Сорогин](https://up.htmlacademy.ru/adaptive/29/user/2330793).
+* Наставник:: [Максим Миронов](https://up.htmlacademy.ru/adaptive/29/user/1336881).
 
 ---
 
