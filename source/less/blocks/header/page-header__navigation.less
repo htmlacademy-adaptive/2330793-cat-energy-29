@@ -1,4 +1,23 @@
 .page-header__navigation{
-width: 279px;
+width: 100%;
 display: flex;
+ @media (min-width: @tablet-width) {
+  order: 2;
+  width: 704px;
+}
+
+@media (min-width: @desktop-width) {
+  height: 1220px;
+}
+}
+.header-wrap__list{
+  width: 100%;
+
+}
+.popup-menu__list{
+  list-style-type: none;
+  display: flex;
+  }
+.popup-menu__item{
+  list-style-type: none;
 }
