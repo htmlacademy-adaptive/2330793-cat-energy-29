@@ -1,0 +1,38 @@
+
+  @mobile-width:320px;
+  @tablet-width:768px;
+  @desktop-width:1440px;
+
+  @font-face {
+    font-family: "Latoregular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/lato/Lato-Regular.woff2") format("woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "oswaldregular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/oswald/oswaldregular.woff2") format("woff2");
+    font-display: swap;
+  }
+.index-page{
+  min-width: 320px;
+}
+.container-index{
+  width: 320px;
+  padding: 0 20px;
+}
+@media(min-width:768px){
+  .container-index{
+    width: 704px;
+    padding: 0 32px;
+  }
+}
+@media(min-width:1440px){
+  .container-index{
+    width: 1220px;
+    padding: 0 110px;
+  }
+}
