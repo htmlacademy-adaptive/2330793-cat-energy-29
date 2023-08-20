@@ -2,111 +2,90 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
-    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="index-page">
-    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p> -->
+  <body>
+    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
     <div class="container-index">
         <header class="page-header">
             <h2 class="visually-hidden">Menu navigation</h2>
                 <nav class="page-header__navigation">
-                    <a class="page-header__logo"><img src="../img/icons/logo-cat.svg" alt="Логотип кота"></a>
-                        <p class="page-header-text"><svg xmlns="http://www.w3.org/2000/svg" width="101" height="18" viewBox="0 0 101 18" fill="none">
-                          <g clip-path="url(#clip0_135_3354)">
-                            <path d="M1.26449 16.5385C0.36955 15.2762 -0.0747041 13.7627 1.02073e-05 12.2308V5.84615C-0.108365 4.29774 0.308071 2.75746 1.18546 1.46154C2.05478 0.461538 3.39829 0 5.37403 0C7.34978 0 8.61425 0.461538 9.40455 1.30769C10.2626 2.37941 10.6846 3.72136 10.59 5.07692V6.61539H6.71754V4.84615C6.74881 4.32289 6.66808 3.799 6.48045 3.30769C6.38016 3.10938 6.2212 2.9448 6.02403 2.83513C5.82686 2.72547 5.60049 2.67572 5.37403 2.69231C4.82082 2.69231 4.42568 2.84615 4.26762 3.23077C4.08883 3.77733 4.00862 4.34988 4.03053 4.92308V13.1538C3.98879 13.71 4.0978 14.267 4.34665 14.7692C4.5047 15.1538 4.89985 15.3077 5.45306 15.3077C6.00627 15.3077 6.32239 15.1538 6.48045 14.7692C6.66013 14.2494 6.74049 13.7019 6.71754 13.1538V11.3077H10.59V12.8462C10.6704 14.2238 10.2508 15.5852 9.40455 16.6923C8.61425 17.6154 7.27075 18.0769 5.37403 18.0769C3.47732 18 2.05478 17.5385 1.26449 16.5385Z" fill="#111111"/>
-                            <path d="M15.2527 0.23077H19.7574L23.0767 17.7692H19.4413L18.8091 14.0769H16.2011L15.5689 17.7692H11.8545L15.2527 0.23077ZM18.493 11.7692L17.5446 4.92308L16.5963 11.7692H18.493Z" fill="#111111"/>
-                            <path d="M25.8427 3.15385H23.1557V0.23077H32.5602V3.07692H29.8732V17.7692H25.8427V3.15385Z" fill="#111111"/>
-                            <path d="M39.752 0.23077H46.7066V2.07692H42.2019V7.84615H45.8372V9.61539H42.2019V16.0769H46.7066V17.8462H39.6729V0.23077H39.752Z" fill="#111111"/>
-                            <path d="M48.7613 0.23077H50.5L55.6369 11.8462V0.23077H57.6917V17.7692H56.1111L50.8951 5.76923V17.7692H48.7613V0.23077Z" fill="#111111"/>
-                            <path d="M60.0626 0.23077H67.0172V2.07692H62.5125V7.84615H66.1479V9.61539H62.5125V16.0769H67.0172V17.8462H60.0626V0.23077Z" fill="#111111"/>
-                            <path d="M69.072 0.23077H72.7074C74.1375 0.134618 75.5587 0.514353 76.7379 1.30769C77.6072 2 78.0024 3.23077 78.0024 4.84616C78.0024 7.07692 77.2911 8.46154 75.7895 8.92308L78.3185 17.6923H75.8686L73.4977 9.46154H71.5219V17.6923H68.993V0.23077H69.072ZM72.5493 7.76923C73.364 7.83458 74.1761 7.61652 74.8412 7.15385C75.3154 6.76923 75.5524 6 75.5524 4.84616C75.5743 4.27296 75.4941 3.7004 75.3154 3.15385C75.1375 2.76166 74.832 2.4373 74.446 2.23077C73.9017 1.98934 73.3042 1.8836 72.7074 1.92308H71.601V7.69231H72.5493V7.76923Z" fill="#111111"/>
-                            <path d="M81.1635 16.4615C80.342 15.1166 79.9564 13.5617 80.0571 12V6.15384C80.0376 5.03911 80.1705 3.9268 80.4523 2.84615C80.7167 2.03863 81.2437 1.33668 81.9538 0.846152C82.8362 0.337748 83.8542 0.0967294 84.8779 0.153844C86.5376 0.153844 87.723 0.53846 88.4343 1.38461C89.2525 2.50191 89.6438 3.86237 89.5407 5.23077V5.84615H87.1698V5.30769C87.1734 4.66346 87.1205 4.0201 87.0117 3.38461C86.9451 2.98303 86.7178 2.62348 86.3795 2.38461C85.9353 2.10082 85.4081 1.96579 84.8779 2C84.3113 1.96466 83.7504 2.12843 83.2973 2.46154C83.1114 2.61401 82.9595 2.80181 82.8508 3.01344C82.7421 3.22507 82.6789 3.45608 82.6651 3.69231C82.5609 4.37999 82.5081 5.07411 82.507 5.76923V12.3077C82.4488 13.3038 82.6105 14.3006 82.9812 15.2308C83.2973 15.8462 83.9296 16.0769 84.8779 16.0769C85.2524 16.1223 85.6323 16.0589 85.9698 15.8947C86.3073 15.7304 86.5873 15.4727 86.7746 15.1538C87.1922 14.1811 87.3812 13.1299 87.3278 12.0769V10.8462H85.036V9.07692H89.6197V17.7692H88.0391L87.802 15.7692C87.5948 16.4395 87.1634 17.0231 86.5763 17.4273C85.9892 17.8315 85.2801 18.0331 84.5618 18C83.9088 18.0374 83.2565 17.9164 82.6634 17.6479C82.0702 17.3794 81.5549 16.9717 81.1635 16.4615Z" fill="#111111"/>
-                            <path d="M94.6776 11.6154L90.8052 0.30769H93.1761L95.9421 8.76923L98.6291 0.30769H101L97.1275 11.6154V17.7692H94.7566V11.6154H94.6776Z" fill="#111111"/>
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_135_3354">
-                              <rect width="101" height="18" fill="white"/>
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </p>
-                      <div class="header-wrap__list">
-                        <ul class="popup-menu__list">
-                            <li class="popup-menu__item">
-                                <a href="#index" class="">Главная</a>
-                              </li>
-                                <li class="popup-menu__item">
-                                <a href="#catalog" class="">Каталог продукции</a>
-                              </li>
-                                <li class="popup-menu__item">
-                                <a href="#programs" class="">Подбор программы</a>
-                            </li>
-                        </ul>
-                      </div>
-                          <button class=" button button__header--toogle" type="button"><img src="#" alt="Открыть меню"></button>
+                    <a class="page-header__navigation--link"><img src="#" alt="Логотип кота"></a>
+                        <p>CAT ENERGY</p>
+                            <button class=" button button__header--primary" type="button"><img src="#" alt=""></button>
                 </nav>
         </header>
         <main class="main-index">
             <section class="main-section">
-            <h1 class=" main-section__title main-title__wrap">Функциональное питание для котов</h1>
-            <p class="  main-section__subtitle main-subtitle__wrap">Занялся собой? Займись котом!</p>
-            <!-- <img class="main-section__cat" width="320" height="302"> -->
-            <img class="main-section__product" width="280" height="270">
+            <h1 class="main-section__title">Функциональное питание для котов</h1>
+            <p class="main-section__subtitle">Занялся собой? Займись котом!</p>
+            <img class="main-section__cat" src="#" alt="">
+            <img class="main-section__product" src="#" alt="">
             <button class="button button__main--primary" type="button">Подобрать программу</button>
             </section>
             <section class="program-slim">
+<<<<<<< Updated upstream
+                <div></div>
+                <img class="program-slim__img" src="#" alt="">
+=======
                 <div class="program-border-slim">
                   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                     <circle cx="25" cy="25" r="25" fill="#68B738"/>
                     </svg>
                     <img class="program-slim__img" src="/img/icons/cat-slim.svg" alt="">
                 </div>
+                <div class="program-slim__wrap">
+>>>>>>> Stashed changes
                 <h2 class="program-slim__title">Похудение</h2>
                 <p class="program-slim__subtitle">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-                <div class="slim-line"></div>
                 <button class="button button__program--primary" type="button">Каталог slim
-                    <img class="program-slim__arrow" src="../img/icons/arrow.svg" alt="">
+                    <img class="program-slim__arrow" src="#" alt="">
                 </button>
+              </div>
             </section>
             <section class="program-width">
+<<<<<<< Updated upstream
+                <div></div>
+                <img class="program-width__img" src="#"  alt="">
+=======
                 <div class="program-border-width">
                   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                     <circle cx="25" cy="25" r="25" fill="#68B738"/>
                     </svg>
                     <img class="program-width__img" src="/img/icons/cat-pro.svg"  alt="">
                 </div>
+                <div class="program-width__wrap">
+>>>>>>> Stashed changes
                 <h2 class="program-width__title">Набор массы</h2>
                 <p class="program-width__subtitle">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-                <div class="width-line"></div>
-                <button class="button button__program-width--primary" type="button">Каталог pro
-                    <img class="program-width__arrow" src="../img/icons/arrow.svg" alt="">
+                <button class="button button__program--primary" type="button">Каталог pro
+                    <img class="program-width__arrow" src="#" alt="">
                 </button>
+              </div>
             </section>
             <section class="main-advantages">
                 <h2 class="main-advantages__title">Как это работает</h2>
                 <ul class="main-advantages__list">
                     <li class="main-advantages__item">
-                        <img class="main-advantages__img" src="../img/icons/img-livs.png" alt="">
+                        <img class="main-advantages__img" src="#" alt="">
                         <p class="main-advantages__description">Функциональное питание
                             содержит только полезные
                             питательные вещества.</p>
                     </li>
                     <li class="main-advantages__item">
-                        <img  class="main-advantages__img" src="../img/icons/img-wash.png" alt="">
-                        <p class="main-advantages__description">Выпускается в виде порошка,
-                            который нужно лишь залить
+                        <img  class="main-advantages__img" src="#" alt="">
+                        <p class="main-advantages__description">Выпускается в виде порошка, 
+                            который нужно лишь залить 
                             кипятком и готово.</p>
                     </li>
                     <li class="main-advantages__item">
-                        <img  class="main-advantages__img" src="../img/icons/img-brunch-knife.png" alt="">
-                        <p class="main-advantages__description">Замените один-два приема
-                            обычной еды на наше
+                        <img  class="main-advantages__img" src="#" alt="">
+                        <p class="main-advantages__description">Замените один-два приема 
+                            обычной еды на наше 
                             функциональное питание.</p>
                     </li>
                     <li class="main-advantages__item">
-                        <img  class="main-advantages__img" src="../img/icons/img-clock.png" alt="">
+                        <img  class="main-advantages__img" src="#" alt="">
                         <p class="main-advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
                     </li>
                 </ul>
@@ -114,7 +93,6 @@
             <section class="main-results">
                 <h2 class="main-results__title">Живой пример</h2>
                 <p class="main-results__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
-                <div class="fieldset-wrap">
                     <fieldset class="main-results__field">
                         <legend class="main-results-subtitle">Снижение веса</legend>
                           <p class="main-results___result">5 кг</p>
@@ -123,32 +101,74 @@
                         <legend class="main-results-subtitle">Затрачено времени</legend>
                           <p class="main-results___result">60 дней</p>
                        </fieldset>
-                      </div>
+<<<<<<< Updated upstream
                 <p class="main-results___price">Затраты на питание: 15 000 РУБ. </p>
+=======
+                       <p class="main-results___price">Затраты на питание: 15 000 РУБ. </p>
+                      </div>
+               
+>>>>>>> Stashed changes
             </section>
             <section class="main-slider">
                 <h2 class="visually-hidden">Main-slider</h2>
-                <img class="main-slider__photo" src="../img/cat.png" alt="">
-                <div class="line-slider">
-                <svg class="slider-img" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                  <rect x="1" y="1" width="38" height="38" rx="19" fill="white"/>
-                  <path d="M16 11L8 20L16 29V11Z" fill="#666666"/>
-                  <path d="M32 20L24 11V29L32 20Z" fill="#666666"/>
-                  <rect x="1" y="1" width="38" height="38" rx="19" stroke="#666666" stroke-width="2"/>
-                  </svg>
-                </div>
-                <img class="main-slider__photo" src="../img/cat1.png" alt="">
+                <img class="main-slider__photo" src="#" alt="">
+                <img class="main-slider__photo" src="#" alt="">
             </section>
             <address class="main-address">
+              <div class="main_address__wrap">
                 <p class="main-address__subtitle">Приглашаем к сотрудничеству дилеров!</p>
-                <p class="main-address__address">ул. Большая
+                <p class="main-address__address">ул. Большая 
                     Конюшенная, д. 19/8
                     Санкт-Петербург</p>
-                <script class="main-address__map" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4463c3963eb7d4315873cb6f3cc0d6d67265c78d4114cad94730316df2d8e700&amp;width=320&amp;height=362&amp;lang=ru_RU&amp;scroll=true"></script>
+                  </div>
+                <script class="main-address__map" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4463c3963eb7d4315873cb6f3cc0d6d67265c78d4114cad94730316df2d8e700&amp;lang=ru_RU&amp;scroll=true"></script>
             </address>
+<<<<<<< Updated upstream
+            <footer class="index-footer">
+                <h2 class="visually-hidden">Social</h2>
+                <p class="index-footer__subtitle">Cat energy</p>
+                <ul class="index-footer__social social-list">
+                    <li class="index-footer__social social-item">
+                        <a class="index-footer__link" href="#">
+                            <img class="index-footer__img" src="#" alt="">
+                        </a>
+                    </li>
+                    <li class="index-footer__social social-item">
+                        <a class="index-footer__link" href="#">
+                            <img class="index-footer__img" src="#" alt="">
+                        </a>
+                    </li>
+                    <li class="index-footer__social social-item">
+                        <a class="index-footer__link" href="#">
+                            <img class="index-footer__img" src="#" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <p class="index-footer__subtitle">HTML Academy  <a class="index-footer__logo"><img src="#" alt=""></a></p>
+            </footer>
+        </main>
+        <section class="popup-menu">
+            <header class="popup-menu__header">
+                <h2 class="visually-hidden">Menu navigation</h2>
+                    <nav class="popup-menu__navigation">
+                        <a class="popup-menu__logo"><img src="#" alt=""></a>
+                            <p class="popup-menu__title">CAT ENERGY</p>
+                            <button class="popup-menu__button--primary" type="button"><img src="#" alt=""></button>
+                    </nav>
+                    <ul class="popup-menu__list">
+                        <li class="popup-menu__item">
+                            <a href="#index" class="">Главная</a>
+                            <a href="#catalog" class="">Каталог продукции</a>
+                            <a href="#programs" class="">Подбор программы</a>
+                        </li>
+                    </ul>    
+            </header>
+        </section>
+=======
           </main>
           <footer class="index-footer">
             <h2 class="visually-hidden">Social</h2>
+            <div class="index-footer__wrap">
             <svg class="svg-footer" xmlns="http://www.w3.org/2000/svg" width="128" height="24" viewBox="0 0 128 24" fill="none">
               <path d="M1.6236 21.9574C0.489608 20.2815 -0.0733133 18.2722 0.0213584 16.2383V7.7617C-0.115966 5.70593 0.411707 3.66097 1.52346 1.94043C2.62499 0.612766 4.32737 0 6.83086 0C9.33436 0 10.9366 0.612766 11.938 1.73617C13.0252 3.15904 13.56 4.9407 13.4401 6.74043V8.78298H8.53324V6.43404C8.57287 5.73932 8.47057 5.04378 8.23282 4.39149C8.10574 4.12819 7.90433 3.90969 7.65449 3.76409C7.40465 3.61849 7.11781 3.55245 6.83086 3.57447C6.12989 3.57447 5.62919 3.77872 5.42891 4.28936C5.20237 5.015 5.10073 5.77516 5.12849 6.53617V17.4638C5.0756 18.2022 5.21373 18.9417 5.52905 19.6085C5.72933 20.1192 6.23003 20.3234 6.931 20.3234C7.63198 20.3234 8.03254 20.1192 8.23282 19.6085C8.4605 18.9183 8.56232 18.1914 8.53324 17.4638V15.0128H13.4401V17.0553C13.5419 18.8844 13.0103 20.6918 11.938 22.1617C10.9366 23.3872 9.23422 24 6.83086 24C4.42751 23.8979 2.62499 23.2851 1.6236 21.9574Z" fill="#111111"/>
               <path d="M19.3483 0.306396H25.0563L29.2622 23.5915H24.6557L23.8546 18.6894H20.55L19.7489 23.5915H15.0423L19.3483 0.306396ZM23.454 15.6255L22.2524 6.53618L21.0507 15.6255H23.454Z" fill="#111111"/>
@@ -178,7 +198,9 @@
                 </li>
             </ul>
             <p class="index-footer__subtitle-text">HTML Academy  <a class="index-footer__logo"><img width="27" height="34" src="../img/icons/Лого_html.svg" alt="logo-html"></a></p>
+          </div>
         </footer>
+>>>>>>> Stashed changes
     </div>
   </body>
 </html>
